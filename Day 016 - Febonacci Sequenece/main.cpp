@@ -1,3 +1,5 @@
+// Program to print Fibonacci Sequence.
+
 #include<iostream>
 using namespace std;
 void fib(int n){
