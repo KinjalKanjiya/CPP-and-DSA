@@ -1,3 +1,5 @@
+// Program to check pythagorian triplet.
+
 #include<iostream>
 using namespace std;
 bool check(int x, int y, int z){
