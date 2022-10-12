@@ -6,12 +6,14 @@ int main(){
 
     int n;
     cin>>n;
-
+    
+    // Taking Input
     int array[n];
     for(int i=0;i<n;i++){
         cin>>array[i];
-        //cout<<endl;
+        
     }
+    //Print Array
     for(int i=0;i<n;i++){
         cout<<array[i]<<" ";
     }
