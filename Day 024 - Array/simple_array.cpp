@@ -1,4 +1,6 @@
 // Array : group of values of same data type.
+
+
 #include<iostream>
 using namespace std;
 int main(){
