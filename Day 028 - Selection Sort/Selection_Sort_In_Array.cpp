@@ -1,4 +1,9 @@
-// Selection Sort- Find the minimum array in unsorted array and swap it with element at beginning.
+/* Selection Sort */
+/*
+" Find the minimum element in unsorted array and swap
+  it with element at begining. "
+*/
+
 #include<iostream>
 using namespace std;
 int main(){
