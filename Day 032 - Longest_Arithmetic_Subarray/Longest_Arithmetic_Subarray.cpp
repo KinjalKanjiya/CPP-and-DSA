@@ -1,4 +1,8 @@
+
 //Arithmatic Array is an array that consist at least two integers and the difference between consecutive integers are equal . Ex,[9,7,5,3],[5,5,5],[10,9]
+
+// Program to find longest Arithmetic subarray.
+
 #include<iostream>
 using namespace std;
 int main(){
