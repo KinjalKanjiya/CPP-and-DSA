@@ -1,4 +1,10 @@
+/* Subarray 
+    - Continuous part of the array.
+    - No. of subarrays of an array with n elemnts = nC2 + n.
+*/
+
 //Problem: Given an array a[] of size n. Output sum of each subarray of the given array.
+
 #include<iostream>
 using namespace std;
 int main(){
