@@ -1,3 +1,5 @@
+//Program to find first repeating element in an array. 
+
 #include<iostream>
 #include<climits>
 using namespace std;
