@@ -1,4 +1,4 @@
-
+// Program to find all the subarray of an array
 #include<iostream>
 using namespace std;
 
