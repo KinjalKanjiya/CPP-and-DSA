@@ -1,3 +1,5 @@
+// Kadane's Algorithm
+
 #include<iostream>
 #include<climits>
 using namespace std;
