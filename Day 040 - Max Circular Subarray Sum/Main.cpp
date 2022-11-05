@@ -2,7 +2,7 @@
 #include<climits>
 using namespace std;
 
-int kadane(int a[],int n)
+int kadane(int a[],int n)  //kadanes algorithm
 {
     int maxSum=INT_MIN;
     int curr=0;
@@ -34,7 +34,8 @@ int main()
     for(int i=0;i<n;i++)
     {
         totalSum+=a[i];
-        a[i]=-a[i]; 
+        a[i]=-a[i]; // sign changing of the elements
+
     }
 
     wrapSum=totalSum+kadane(a,n);
