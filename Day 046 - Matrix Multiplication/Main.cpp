@@ -26,4 +26,18 @@ int main(){
             cin>>m2[i][j];
         }
     }
-
+//To store a answer 
+    int ans[n1][n3];
+    for(int i=0;i<n1;i++){
+        for(int j=0;j<n3;j++){
+            ans[i][j]=0;
+        }
+    }
+    //For Multiplication
+    for(int i=0;i<n1;i++){
+        for(int j=0;j<n3;j++){
+            for(int k=0;k<n2;k++){
+                ans[i][j] += m1[i][k]*m2[k][j];
+            }
+        }
+    }
