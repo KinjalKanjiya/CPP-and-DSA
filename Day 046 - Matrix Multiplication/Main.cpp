@@ -41,3 +41,13 @@ int main(){
             }
         }
     }
+    //To print a Answer Matrix
+    cout<<"Matrix Answer is : "<<endl;
+    for(int i=0;i<n1;i++){
+        for(int j=0;j<n3;j++){
+            cout<<ans[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
